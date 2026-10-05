@@ -4,42 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Главная</title>
 </head>
+
 <body>
-<header>
-    <a class="logo">Melody Muse</a>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" class="active">Главная</a>
-                <a href="catalog.html" >Каталог</a>
-                <a href="delivery.html" >Доставка</a>
-                <a href="about.html" >О нас</a>
-            </li>
-        </ul>
-    </nav>
-    <a href="#" class="shop"><img src="img/shop.svg" alt=""></a>
-</header>
+    <header>
+        <a class="logo">Melody Muse</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="shop"><img src="img/shop.svg" alt=""></a>
+    </header>
 
     <main>
+        <section class="banner">
+            <img src="img/banner.png" alt="" class="banner-img">
+            <h1>Звучи громче! Скидки до<br>20% на гитары и<br>клавишные.</h1>
+            <p>Музыкальные инструменты<br>для новичков и профи.</p>
+            <a href="catalog.html" class="btn">Перейти к товарам</a>
+        </section>
+
+        <h2 class="hits">Хит - продаж</h2>
+
+        <section class="products">
+            <div class="card">
+                <img src="img/1.png" alt="Гитара">
+                <h3>Juarez Lindenwood акустическая гитара</h3>
+                <div class="buy">
+                    <a href="#" class="to-buy">В корзину</a>
+                    <span>от 7999 руб.</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/2.png" alt="Скрипка">
+                <h3>Скрипка 3/4 со смычком и чехлом</h3>
+                <div class="buy">
+                    <a href="#" class="to-buy">В корзину</a>
+                    <span>от 16 999 руб.</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/3.png" alt="Флейта">
+                <h3>Блокфлейта сопрано Yamaha YRS-23</h3>
+                <div class="buy">
+                    <a href="#" class="to-buy">В корзину</a>
+                    <span>от 10 999 руб.</span>
+                </div>
+            </div>
+        </section>
+
 
     </main>
 
-<footer>
-    <a class="logo">Melody Muse</a>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" class="active">Главная</a>
-                <a href="catalog.html" >Каталог</a>
-                <a href="delivery.html" >Доставка</a>
-                <a href="about.html" >О нас</a>
-            </li>
-        </ul>
-    </nav>
-</footer>
+    <footer>
+        <div class="footer-top">
+            <a class="logo">Melody Muse</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>© 2026 Melody Muse Все права защищены.</p>
+    </footer>
 
 </body>
 

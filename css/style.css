@@ -115,7 +115,7 @@ footer>p{
   z-index: -1;
 }
 
-.banner > h1 {
+.banner>h1 {
   margin: 0;
   font-size: 36px;
   line-height: 43px;
@@ -143,4 +143,67 @@ footer>p{
 }
 .btn:hover{
     background: #a99d82;
+}
+.hits{
+  padding: 15px;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+  background-color: #FDF6E5;
+  margin: 0;
+}
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  padding: 89px 60px 0;
+}
+
+.card{
+  width: 320px;
+  height: 440px;
+  background: #FEF9F0;
+  border-radius: 30px;
+  padding: 0 12px;
+}
+
+.card>img {
+  display: block;
+  margin: 0 auto;       
+  width: 60%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.card > h3 {
+  height: 68px;
+  padding-top: 13px;
+  border-top: 1px solid #000;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.buy{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.to-buy{
+  width: 127px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+}
+
+.buy>span{
+  font-size: 20px;
+  font-weight: 500;
 }
